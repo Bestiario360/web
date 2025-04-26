@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Validación de Certificados | Bestiario 360°</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <h1>Bestiario 360°</h1>
+    <p class="subtitulo">Validación de Certificados</p>
+
+    <input type="text" id="codigoInput" placeholder="Ingresa tu código" />
+    <button onclick="validarCodigo()">Validar</button>
+
+    <p>o escanea tu QR:</p>
+    <video id="preview" width="200" height="150"></video>
+
+    <div id="resultado"></div>
+  </div>
+
+  <script src="https://unpkg.com/html5-qrcode" type="text/javascript"></script>
+  <script src="script.js"></script>
+</body>
+</html>
